@@ -38,15 +38,15 @@ const checkout=async (amount)=>{
     key, // Enter the Key ID generated from the Dashboard
     amount: data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     currency: "INR",
-    name: "Mohit Choubey", //your business name
+    name: "Pratibha Kumari", //your business name
     description: "Test Transaction",
-    image: "https://avatars.githubusercontent.com/u/137066863?v=4",
+    image: "",
     order_id:data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     callback_url: `${BASE_URL}/payment/verification`,
     prefill: { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
-        name: "Mohit Choubey", //your customer's name
-        email: "mohitjdh2021@gmail.com",
-        contact: "8690899796" //Provide the customer's phone number for better conversion rates 
+        name: "Pratibha Kumari", //your customer's name
+        email: "21je0685@iitism.ac.in",
+        contact: "9116325825" //Provide the customer's phone number for better conversion rates 
     },
     notes: {
         "address": "Razorpay Corporate Office"
