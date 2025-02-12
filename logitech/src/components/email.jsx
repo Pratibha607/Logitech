@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 function myfirstemail(props){
 const templateParams = {
-  to_name: 'Mohit',
+  to_name: 'Pratibha',
   from_name: props.firstname+" "+props.to_email,
   subject: props.subject,
   message: props.message
